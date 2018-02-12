@@ -1,7 +1,7 @@
 bc.service('LoginService', ['$http', '$q', function ($http, $q) {
    "use strict";
    
-   const urlBase="http://bungalowcaribe.com/manager/api";
+   const urlBase="https://bungalowcaribe.herokuapp.com/manager/api";
    
    this.request = function(config) {
 	      let deferred = $q.defer();
